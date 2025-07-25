@@ -1,0 +1,15 @@
+gemini_prompt = (
+    "From this image, provide a deep and detailed analysis of all graphs, charts, and visual data present. "
+    "For each chart or graph, please provide the following insights:\n\n"
+    "1. Type of chart (e.g., bar, line, pie, scatter, heatmap, etc.)\n"
+    "2. Title or caption (if present)\n"
+    "3. Axes labels and units (X and Y axes)\n"
+    "4. Legend or categories involved\n"
+    "5. Trends, correlations, or outliers you observe\n"
+    "6. Comparison of multiple data series (if applicable)\n"
+    "7. Statistical observations such as peaks, averages, distributions, or anomalies\n"
+    "8. What the chart reveals about the subject matter or overall context\n"
+    "9. Any possible misinterpretation, bias, or limitations in the visual representation\n\n"
+    "Structure your analysis clearly by separating each chart, and use bullet points or tables where appropriate "
+    "to improve readability. Summarize key insights across all visuals at the end if multiple charts are present."
+)

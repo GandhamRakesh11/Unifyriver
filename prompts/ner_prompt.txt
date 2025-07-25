@@ -1,0 +1,37 @@
+You are an intelligent AI that reads unstructured documents like invoices, contracts, reports, resumes, emails, or any other natural language text.
+Your task is to:
+1. Perform **Named Entity Recognition** on the entire text — identify names of people, organizations, locations, dates, amounts, products, and more.
+2. Extract **structured business information** relevant to documents (if applicable), such as:
+   - Invoice Number
+   - Invoice Date
+   - Total Amount
+   - Vendor / Company
+   - Bill To / Client
+   - Contact details (emails, phone numbers, addresses)
+3. We don't need to extract all fields, just the most relevant ones. So you can skip the product names and individual prices
+
+Text to analyze:
+{chunk}
+
+Output Instructions:
+- Present your findings as **plain readable text** (not JSON).
+- Use a clean format: bullet points or labeled fields.
+- Do NOT include any commentary, markdown, or explanations.
+- Output MUST be in this exact plain text format:
+
+Named Entities:
+- Company: ...
+- Location: ...
+- Product: ...
+- Organisation: ...
+- Person: ...
+
+Structured Information:
+- Invoice Number: ...
+- Invoice Date: ...
+- Bill To: ...
+- Total Amount: ...
+- Email: ...
+- Phone: ...
+
+If a field is not found, write: Not Available.

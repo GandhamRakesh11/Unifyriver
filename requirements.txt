@@ -1,0 +1,54 @@
+# === Core Backend Framework ===
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# === ML / DL Frameworks ===
+torch
+sentence-transformers
+scikit-learn
+ctranslate2
+sentencepiece
+transformers
+
+# === Vision / OCR ===
+opencv-python-headless
+paddleocr
+paddlepaddle
+doctr
+camelot-py[cv]
+pdf2image
+PyMuPDF
+pdfplumber
+python-docx
+Pillow
+
+# === Text / Translation ===
+langdetect
+google-generativeai
+
+# === Data / Storage ===
+pandas
+openpyxl
+boto3
+
+# === Signature Detection ===
+inference
+requests
+
+# === LLM Clients ===
+mistralai
+
+# === Misc ===
+langgraph
+gradio
+gradio_client
+python-dotenv
+
+# === Vector Store ===
+qdrant-client
+
+ultralytics
+docx2pdf
+
