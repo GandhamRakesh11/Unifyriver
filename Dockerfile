@@ -46,7 +46,7 @@ COPY . .
 USER appuser
 
 # Expose port (adjust based on what you're running)
-EXPOSE 7860
+EXPOSE 3000
 
 # Start the app
 CMD ["python", "app.py"]

@@ -436,7 +436,7 @@ async def stamp_detection_api(file: UploadFile = File(...)):
 # Dev run
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app:api", host="0.0.0.0", port=7860, reload=True)
+    uvicorn.run("app:api", host="0.0.0.0", port=3000, reload=True)
 
 
 
